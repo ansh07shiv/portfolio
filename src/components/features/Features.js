@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
+import { FaMobile, FaGlobe, FaDatabase, FaCloud, FaChartBar, FaBookReader, FaStar, FaChrome, FaMix, FaJava } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
@@ -11,43 +11,40 @@ const Features = () => {
       id="features"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <Title title="Features" des="What I Do" />
+
+      <span className="text-5xl text-base font-semibold mb-2" >Technical Skills</span>
+      <br/>
+      <br/>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Programming Languages"
+          des="Java, Python, SQL, JavaScript"
+          icon={<FaJava />}
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
+          title="Web Technologies"
+          des="Spring Boot (Java), ReactJS, AngularJS, RESTful, Django, Flask, Docker, JWT, GIT, CSS, TailWind"
+          icon={<FaChrome />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
+          title="Cloud"
+          des="AWS S3, AWS EC2, AWS RDS, AWS Beanstalk, AWS Autoscaling, AWS Cloudwatch, Python Heroku, IBM Watson"
+          icon={<FaCloud />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
+          title="Databases"
+          des="Oracle SQL, MySQL, MongoDB, SQLite"
+          icon={<FaDatabase />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
+          title="Machine Learning"
+          des="Python, Jupyter, Tensorflow, NLP, Image Processing, Scikit-Learn, Deep Learning"
+          icon={<FaChartBar />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaGlobe />}
+          title="Miscellaneous"
+          des="Crystal Reports, Oracle Apex, NX Storybook, CI/CD, Docker"
+          icon={<FaMix />}
         />
       </div>
     </section>
