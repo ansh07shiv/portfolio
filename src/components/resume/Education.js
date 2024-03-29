@@ -19,13 +19,13 @@ const Education = () => {
           <ResumeCard
             title="B.E. in Information Technology"
             subTitle="Shri Govindram Seksariya Institute of Technology (2015 - 2019)"
-            result="3.87/4"
+            result="3.87/4.00"
             des="Achievements: Shri K. G. Seksariya Gold Medalist, Government of India Smart India Hackathon Grand Finalist."
           />
           <ResumeCard
             title="M.S. in Computer Science"
             subTitle="New Jersey Institute of Technology (2022 - 2023)"
-            result="3.95/4"
+            result="3.95/4.00"
             des="Relevant Courses: Internet and Higher-Level Protocols,
             Data Structures and Algorithms, Machine Learning, Data Analytics with R, Data Management Systems, Deep Learning, Cloud
 Computing (AWS), Natural Language Processing, Web Systems."
@@ -41,12 +41,22 @@ Computing (AWS), Natural Language Processing, Web Systems."
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+
           <ResumeCard
-            title="Java Developer Intern"
-            subTitle="New Jersey Institute of Technology - (2023 - 2024)"
-            result="New Jersey, USA"
-            // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+              title="Application Developer"
+              subTitle="New Jersey Institute of Technology - (2024 - Present)"
+              result="New Jersey, USA"
+              // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
+
+          <ResumeCard
+              title="Java Developer Intern"
+              subTitle="New Jersey Institute of Technology - (2023 - 2024)"
+              result="New Jersey, USA"
+              // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+          />
+
           <ResumeCard
             title="Graduate Research Assistant"
             subTitle="New Jersey Institute of Technology - (2022 - 2023)"

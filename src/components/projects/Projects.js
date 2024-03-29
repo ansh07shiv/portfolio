@@ -57,6 +57,38 @@ const Projects = () => {
           githubLink={projectLinks.onlineFurnitureStore}
         />
 
+        <ProjectsCard
+            title="CatchIT - One stop shop for everything Fishermen!"
+            des="CatchIT is the all-in-one app designed for the passionate fisherman. Built with React and Flask, it offers a streamlined experience for those looking to enhance their fishing trips."
+            otherInformation="
+                <b style='text-decoration: underline'>Weather and Location Intelligence</b>: Get real-time weather updates and discover the best fishing spots with ease, ensuring you're always at the right place at the right time.<br>
+                <b style='text-decoration: underline'>Social Fishing </b>: Form fishing groups, plan outings, and connect with the community. Share experiences and tips to make every fishing adventure better.<br>
+                <b style='text-decoration: underline'>Competitive Leaderboard</b>: Boast your biggest catches on the leaderboard, compare with peers, and strive for the top spot with every catch.<br><br>
+                <b style='text-decoration: underline'>CatchIT</b>: Your digital fishing guide, bringing technology and tradition together for the ultimate fishing experience."
+            skills="Flask, React.js, Redis, Python, JavaScript"
+            githubLink={projectLinks.catchIt}
+        />
+
+        <ProjectsCard
+            title="Predict Future Sales"
+            des="Forecasts are about the future. It’s hard to overstate how important it is for a company to produce an accurate sales forecast. Privately held companies gain confidence in their business when leaders can trust forecasts. For publicly traded companies, accurate forecasts confer credibility in the market."
+            otherInformation="The Challenge: In this competition, I had to work with a challenging time-series dataset consisting of daily sales data, kindly provided by one of the largest Russian software firms - 1C Company.
+              <br><br>
+              I predicted total sales for every product and store in the next month.
+              <br>
+              As part of this project, I was able to achieve a 1.0788 Accuracy Score using LightGBM Regressor on Test Data Set. I identified that ML algorithms work better when we have more relevant features in the Data Set"
+            skills="Machine Learning, Data Analysis, Data Visualization , Python"
+            kaggleLink={projectLinks.predictSales}
+        />
+
+        <ProjectsCard
+            title="Predict Student Performance from Game Play"
+            des="Our team embarked on a fascinating journey as we delved into the world of educational technology, armed with Python, to participate in a competition with a compelling mission. The objective was to predict student performance in real-time during game-based learning sessions using one of the largest open datasets of game logs. Our work held the promise of pushing the boundaries of knowledge-tracing methods in the realm of game-based learning, ultimately contributing to the creation of more effective educational experiences for students. Game-based learning, with its engaging and interactive approach, has been gaining traction in educational settings. "
+            otherInformation="However, we recognized the scarcity of open datasets to apply data science and learning analytics to enhance this educational approach. Our Python-powered efforts aimed to bridge this gap by leveraging knowledge tracing principles, which have seen success in online learning environments but are relatively unexplored in educational games."
+            skills="Machine Learning, Data Analysis, Data Visualization , Python, Time Series Analysis"
+            kaggleLink={projectLinks.gameplayProject}
+        />
+
       </div>
     </section>
   );

@@ -23,7 +23,7 @@ const ContactLeft = () => {
           />
           <CardContact
               title="Phone"
-              des="+1 973 262 0327"
+              des="+1 551 365 9588"
               icon={<FaPhone />}
           />
           <CardContact

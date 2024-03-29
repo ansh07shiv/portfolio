@@ -30,7 +30,7 @@ export const navLinksdata = [
 export const socialLinks = {
   linkedIn: "https://www.linkedin.com/in/anshulshivhare/",
   gitHub: "https://github.com/ansh07shiv",
-  resume: "https://drive.google.com/file/d/1p57_uX7iwnWnZDdS3AVaLSaxiUvRpG9D/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1RCz6opGBCpn7hgbu_5P_xw8ZpiNa9udC/view?usp=sharing"
 }
 
 export const projectLinks = {
@@ -38,4 +38,7 @@ export const projectLinks = {
   jobVaracityLink: "https://github.com/ansh07shiv/JOB_VARACITY_PREDICTION",
   cropDiseaseLink: "https://drive.google.com/file/d/16OAu8VhYbfO5OLHaVR40pTyn9tKU-l2-/view?usp=sharing",
   onlineFurnitureStore: "https://github.com/ansh07shiv/Online-Furniture-Store---DBMS-Final-Project",
+  catchIt: "https://github.com/ansh07shiv/hack-njit-catchit-c3",
+  predictSales: "https://www.kaggle.com/code/ansh007shiv/cs636003-anshul-shivhare",
+  gameplayProject: "https://www.kaggle.com/code/ansh007shiv/ds677104-final-project-anshul-surpiya-tejaswini"
 }
