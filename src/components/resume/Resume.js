@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
         <div className="">
-            <Title title="3+ YEARS OF EXPERIENCE" des="My Resume"/>
+            <Title title="4 YEARS AND 8 MONTHS OF EXPERIENCE" des="My Resume"/>
 
             <a
                 className="text-lg h-10 rounded-full bg-black inline-flex justify-center items-center

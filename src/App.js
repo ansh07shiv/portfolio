@@ -12,11 +12,14 @@ function App() {
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
+
         <Banner />
+
+          <Contact />
         <Features />
+
+          <Resume />
         <Projects />
-        <Resume />
-        <Contact />
         <FooterBottom />
       </div>
     </div>

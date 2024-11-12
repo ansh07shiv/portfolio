@@ -9,20 +9,23 @@ export const navLinksdata = [
     title: "About Me",
     link: "aboutme",
   },
+
   {
-    _id: 1003,
-    title: "Projects",
-    link: "projects",
+    _id: 1006,
+    title: "Contact",
+    link: "contact",
   },
+
   {
     _id: 1004,
     title: "Resume",
     link: "resume",
   },
+
   {
-    _id: 1006,
-    title: "Contact",
-    link: "contact",
+    _id: 1003,
+    title: "Projects",
+    link: "projects",
   },
 ];
 
@@ -30,7 +33,7 @@ export const navLinksdata = [
 export const socialLinks = {
   linkedIn: "https://www.linkedin.com/in/anshulshivhare/",
   gitHub: "https://github.com/ansh07shiv",
-  resume: "https://drive.google.com/file/d/1RCz6opGBCpn7hgbu_5P_xw8ZpiNa9udC/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/15cx7oaEIXjGbRhE2Y46XSPlQBwfhkygA/view?usp=sharing"
 }
 
 export const projectLinks = {

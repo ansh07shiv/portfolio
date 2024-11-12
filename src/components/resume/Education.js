@@ -19,13 +19,13 @@ const Education = () => {
           <ResumeCard
             title="B.E. in Information Technology"
             subTitle="Shri Govindram Seksariya Institute of Technology (2015 - 2019)"
-            result="3.87/4.00"
+            result="3.87 / 4.00"
             des="Achievements: Shri K. G. Seksariya Gold Medalist, Government of India Smart India Hackathon Grand Finalist."
           />
           <ResumeCard
             title="M.S. in Computer Science"
             subTitle="New Jersey Institute of Technology (2022 - 2023)"
-            result="3.95/4.00"
+            result="3.95 / 4.00"
             des="Relevant Courses: Internet and Higher-Level Protocols,
             Data Structures and Algorithms, Machine Learning, Data Analytics with R, Data Management Systems, Deep Learning, Cloud
 Computing (AWS), Natural Language Processing, Web Systems."
@@ -37,41 +37,21 @@ Computing (AWS), Natural Language Processing, Web Systems."
       <br/>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2020 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
 
 
           <ResumeCard
-              title="Application Developer"
-              subTitle="New Jersey Institute of Technology - (2024 - Present)"
+              title="Full Stack Developer"
+              subTitle="New Jersey Institute of Technology - (December 2023 - Present)"
               result="New Jersey, USA"
               // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
-
           <ResumeCard
-              title="Java Developer Intern"
-              subTitle="New Jersey Institute of Technology - (2023 - 2024)"
-              result="New Jersey, USA"
-              // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-
-          <ResumeCard
-            title="Graduate Research Assistant"
-            subTitle="New Jersey Institute of Technology - (2022 - 2023)"
-            result="New Jersey, USA"
-            // des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Deloitte USI"
-            subTitle="Senior Software Developer, Consultant - (2022)"
-            result="Bangalore, India"
-            // des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-          <ResumeCard
-              title="Deloitte USI"
-              subTitle="Software Developer, Analyst - (2020 - 2022)"
+              title="Deloitte"
+              subTitle="Full Stack Developer - (January 2020 - August 2022)"
               result="Bangalore, India"
               // des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
